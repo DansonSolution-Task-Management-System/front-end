@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="themify-icons/themify-icons.css" />
+    <!-- <link rel="stylesheet" href="themify-icons/demo-files/demo.css"> -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="grid-container">
+      <!-- header starts -->
+      <header class="header">
+        <div class="header__search">
+          <span class="ti-search"></span>
+          <input type="search" placeholder="Search" />
+        </div>
+        <div class="header__avatar">
+          <span class="ti-user"></span>
+          <span>Admin</span>
+        </div>
+      </header>
+
+      <!-- sidenav starts -->
+      <aside class="sidenav">
+        <div class="sidenav-header">
+          <h3 class="brand">
+            <span>Danson Solutions</span>
+          </h3>
+          <span class="ti-menu"></span>
+        </div>
+
+        <ul class="sidenav-list">
+          <li class="sidenav-list-item">
+            <a href="">
+              <span class="ti-dashboard"></span>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li class="sidenav-list-item">
+            <a href="" onclick="toggle('user-dropdown');">
+              <span class="ti-user"></span>
+              <span>Users</span>
+              <span class="ti-angle-right"></span>
+            </a>
+            <ul class="sidenav-list" id="user-dropdown">
+              <li class="sidenav-list-item">
+                <a href="">
+                  <span>CEO/Founder</span>
+                </a>
+              </li>
+              <li class="sidenav-list-item">
+                <a href="">
+                  <span>Project Leader</span>
+                </a>
+              </li>
+              <li class="sidenav-list-item">
+                <a href="">
+                  <span>Developers</span>
+                </a>
+              </li>
+              <li class="sidenav-list-item">
+                <a href="">
+                  <span>Interns</span>
+                </a>
+              </li>
+              <li class="sidenav-list-item">
+                <a href="">
+                  <span>Add User</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="sidenav-list-item">
+            <a href="">
+              <span class="ti-menu-alt"></span>
+              <span>Tasks</span>
+            </a>
+          </li>
+          <li class="sidenav-list-item">
+            <a href="">
+              <span class="ti-calendar"></span>
+              <span>Events</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+      <!-- main starts -->
+      <main class="main">
+        <div class="main-header">
+          <div class="main-header__heading">User</div>
+          <div class="main-header__updates">Items</div>
+        </div>
+        <div class="main-overview">
+          <div class="overviewcard">
+            <div class="overviewcard__icon">
+              <span class="ti-user"></span>
+            </div>
+            <div class="overviewcard__info">Card</div>
+          </div>
+          <div class="overviewcard">
+            <div class="overviewcard__icon"><span class="ti-user"></span></div>
+            <div class="overviewcard__info">Card</div>
+          </div>
+          <div class="overviewcard">
+            <div class="overviewcard__icon"><span class="ti-user"></span></div>
+            <div class="overviewcard__info">Card</div>
+          </div>
+          <div class="overviewcard">
+            <div class="overviewcard__icon"><span class="ti-user"></span></div>
+            <div class="overviewcard__info">Card</div>
+          </div>
+        </div>
+      </main>
+
+      <!-- footer start -->
+      <footer class="footer">
+        <div class="footer__copyright">&copy; 2021</div>
+        <div class="footer__signature">Danson Solutions</div>
+      </footer>
+    </div>
+  </body>
+</html>
