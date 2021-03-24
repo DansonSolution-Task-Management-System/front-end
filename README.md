@@ -1,9 +1,9 @@
 # Structure
   1. css
-      a. normalize.css
-      b. style.css
+    a. normalize.css
+    b. style.css
   2. js
-      a. main.js
+    a. main.js
   3. include
       a. footer.php
       b. header.php
