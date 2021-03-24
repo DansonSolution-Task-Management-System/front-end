@@ -1,10 +1,20 @@
-# Structure
-  1. css  
-      a. normalize.css  
-      b. style.css
-  2. js  
-      a. main.js
-  3. themify-icons
+Folder Structure
+============================
+│   index.html                  # Homepage of the site
+│   README.md                   #
+│
+├───css
+│       normalize.css           # Makes browsers render all elements consistently
+│       styles.css              # Styles for all elements
+│
+├───js
+│       main.js                 # Javascript Code
+│
+└───themify-icons               # Icons 
 
-# Index.html
-The homepage of the site.
+
+Technologies Used
+============================
+1. HTML
+2. CSS
+3. Javascript
