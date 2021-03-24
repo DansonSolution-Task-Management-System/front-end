@@ -12,3 +12,4 @@
   4. themify-icons
 
 # Index.html
+The homepage of the site.
