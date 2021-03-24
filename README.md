@@ -1,5 +1,5 @@
 # Structure
-  1. css
+  1. css  
     a. normalize.css
     b. style.css
   2. js
