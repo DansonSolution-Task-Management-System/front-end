@@ -1,17 +1,14 @@
 Folder Structure
 ============================
-│   index.html                  # Homepage of the site
-│   README.md                   #
-│
-├───css
-│       normalize.css           # Makes browsers render all elements consistently
-│       styles.css              # Styles for all elements
-│
-├───js
-│       main.js                 # Javascript Code
-│
-└───themify-icons               # Icons 
+1. index.html &nbsp             
+2. README.md                   
+3. css
+      * normalize.css          
+      * styles.css              
+4. js
+      * main.js                 
 
+5. themify-icons              
 
 Technologies Used
 ============================
