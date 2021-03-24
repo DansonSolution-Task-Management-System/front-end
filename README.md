@@ -1,5 +1,3 @@
-# frontend
-
 # Structure
   1. css
       a. normalize.css
