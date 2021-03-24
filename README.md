@@ -10,3 +10,5 @@
       c. navigation.php  
       d. sidebar.php  
   4. themify-icons
+
+# Index.html
