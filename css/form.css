@@ -12,7 +12,7 @@ body {
 label {
   display: block;;
 }
-input, select {
+input:not([type="file"]), select {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 0.5rem 0.7rem;
