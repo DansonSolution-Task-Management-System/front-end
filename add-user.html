@@ -1,73 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Add User</title>
-    <link rel="stylesheet" href="./css/form.css" />
-  </head>
-  <body>
-    <form>
 
-      <div class="form-group">
-        <label for="name">First Name</label>
-        <input id="f-name" type="text" placeholder="first name" required />
-        <label for="name">Middle Name</label>
-        <input id="m-name" type="text" placeholder="middle name" />
-        <label for="name">Last Name</label>
-        <input id="l-name" type="text" placeholder="last name" required />
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add User</title>
+  <link rel="stylesheet" href="./css/add-user.css" />
+  <link rel="stylesheet" href="./css/normalize.css" />
+</head>
 
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input id="email" type="email" />
-      </div>
+<body>
+  <div class="container">
+    <form action="#">
+      <div class="user-detail">
+        <div class="input-box col-3">
+          <label for="f-name" class="details">First Name</label>
+          <input id="f-name" type="text" placeholder="Enter first name" required />
+        </div>
+        <div class="input-box col-3">
+          <label for="m-name" class="details">Middle Name</label>
+          <input id="m-name" type="text" placeholder="Enter middle name" required />
+        </div>
+        <div class="input-box col-3">
+          <label for="l-name" class="details">Last Name</label>
+          <input id="l-name" type="text" placeholder="Enter last name" required />
+        </div>
+        <div class="input-box col-1">
+          <label for="email" class="details">Email</label>
+          <input id="email" type="text" placeholder="Enter Email" required />
+        </div>
+        <div class="input-box col-2">
+          <label for="password" class="details">Password</label>
+          <input id="password" type="password" placeholder="Enter password" required />
+        </div>
+        <div class="input-box col-2">
+          <label for="password" class="details">Confirm password</label>
+          <input id="password" type="password" placeholder="Confirm password" required />
+        </div>
+        <div class="input-box col-2">
+          <label for="address" class="details">Address</label>
+          <input id="address" placeholder="Enter your address" type="text" required />
+        </div>
+        <div class="input-box col-2">
+          <label for="citizenship" class="details">Citizenship Number</label>
+          <input type="number" id="citizenship" max="20" placeholder="Citizenship Number" required />
+        </div>
+        <div class="input-box col-1">
+          <label for="role" class="details">Role</label>
+          <select id="role">
+            <option value="Role1">Role1</option>
+            <option value="Role2">Role2</option>
+            <option value="Role3">Role3</option>
+            <option value="Role4">Role4</option>
+          </select>
+        </div>
 
-      <div class="form-group">
-        <label for="password">Password</label>
-        <input id="password" type="password" placeholder="Password" required />
-
-        <input
-          type="password"
-          placeholder="Confirm Password"
-          id="confirm_password"
-          required
-        />
-      </div>
-
-      <div class="form-group">
-        <label for="address">Address</label>
-        <input
-          id="address"
-          placeholder="Enter your address"
-          type="text"
-          required
-        />
-        <label for="citizenship">Citizenship Number</label>
-        <input
-          type="number"
-          id="citizenship"
-          max="20"
-          placeholder="Citizenship Number"
-          required
-        />
-
-        <!-- Role filed -->
-        <label for="role">Role</label>
-        <select id="role">
-          <option value="Role1">Role1</option>
-          <option value="Role2">Role2</option>
-          <option value="Role3">Role3</option>
-          <option value="Role4">Role4</option>
-        </select>
-      </div>
-
-      <!-- submit button -->
-      <div class="form-group">
-        <button id="submit" type="submit">Submit</button>
-        <button id="reset" type="reset">Reset</button>
+        <div class="button col-1">
+          <button id="submit" type="submit">Register</button>
+        </div>
+        <div class="button col-3">
+          <button id="whatsapp" type="submit">
+            Register with Whatsapp
+          </button>
+        </div>
+        <div class="button col-3">
+          <button id="whatsapp" type="submit">
+            Register with Whatsapp
+          </button>
+        </div>
+        <div class="button col-3">
+          <button id="instagram" type="submit">
+            Register with Instagram
+          </button>
+        </div>
       </div>
     </form>
-  </body>
+  </div>
+</body>
+
 </html>

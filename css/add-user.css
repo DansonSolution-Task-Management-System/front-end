@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,700&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+  background: #dfe7e7;
+  padding: 25px 30px;
+  border-radius: 5px;
+}
+
+.container form .user-detail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0px;
+}
+
+.col-1 {
+  width: calc(100%);
+}
+.col-2 {
+  width: calc(100% / 2 - 20px);
+}
+.col-3 {
+  width: calc(100% / 3 - 20px);
+}
+.input-box, .button {
+  margin-bottom: 12px;
+}
+.input-box input,
+#role,
+.button button {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 12px;
+  transition: all 0.3s ease;
+}
+.input-box .details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+input:focus,
+input:valid,button:focus {
+  border-color: #648ca6;
+}
+
+button{
+    background-color: #648ca6;
+    color: floralwhite;
+    font-weight: 500 ;
+    font-size: 30px;
+}
+
+@media (max-width: 584px) {
+    .container{
+        max-width: 100%;
+    }
+    .input-box, button{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .user-detail{
+        max-height: 300px;
+        overflow-y: scroll;
+
+    }
+    .user-detail::-webkit-scrollbar{
+        width: 0px;
+    }
+
+    
+}
